@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Ajax CRUD</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-between mt-3">
+            <p class="fw-bold fs-1 mb-0">crudApp</p>
+            <button class="btn btn-secondary btn-sm py-2">Add Student</button>
+        </div>
+
+        <div>
+            <h2 class="text-center">List of Students</h2>
+            <div class="table-responsive">
+                <table class="table">  
+                    <thead>
+                        <tr>
+                          <th scope="col">S/N</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Phone</th>
+                          <th scope="col">Gender</th>
+                          <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Collins</td>
+                          <td>Paul</td>
+                          <td>agogocollins80@gmail.com</td>
+                          <td>09137465096</td>
+                          <td>MALE</td>
+                          <td>
+                            <!-- <a href="" class="btn btn-sm btn-primary">View</a> -->
+                            <a href="" class="btn btn-sm btn-success">Edit</a>
+                            <button class="btn btn-sm btn-danger">Delete</button>
+                          </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Collins</td>
+                            <td>Paul</td>
+                            <td>agogocollins80@gmail.com</td>
+                            <td>09137465096</td>
+                            <td>MALE</td>
+                            <td>
+                              <!-- <a href="" class="btn btn-sm btn-primary">View</a> -->
+                              <a href="" class="btn btn-sm btn-success">Edit</a>
+                              <button class="btn btn-sm btn-danger">Delete</button>
+                            </td>
+                          </tr>
+                    </tbody>
+                </table>
+              </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
